@@ -1,0 +1,10 @@
+Atheros QCA9377 is cheap and widely used, but it was designed with Windows in mind.
+
+The open-source driver (ath10k) works OK, but the firmware blobs are not fully documented — some of them are reverse-engineered or community-provided.
+
+Default firmware on Ubuntu 20.04 is often outdated or buggy.
+
+esse firmware e um update que eu achei no repo oficial do firmware em um repo linux que a bosta do ubuntu nao puxa pra atualizar
+
+e so colar em /lib/firmware/ath10k/QCA9377/hw1.0/ e trocar o nome pro firmware que esta no lugar, no meu caso firmware-5.bin e dar reboot
+
